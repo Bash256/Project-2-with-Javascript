@@ -1,0 +1,307 @@
+.topnav {
+    background-color: #333333;
+    overflow: hidden;
+    position: sticky;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #333;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    padding-left: 50px;
+    padding-top: 3px;
+}
+
+h1 {
+    padding-top: 150px;
+    margin-top: 0px;
+}
+
+h4 {
+    line-height: 0cm
+}
+
+.Box1 {
+    width: 100%;
+    height: 350px;
+    background-color: rgba(3, 95, 23, 0.959);
+}
+
+.title {
+    color: white;
+}
+
+.underscore {
+    position: absolute;
+    top:420px;
+    right:570px;
+    margin-top: -10px;
+}
+
+.subtitle {
+    text-align: center;
+    background-color: rgb(207, 114, 1);
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding-top: 1px;
+}
+
+.col-4 {
+    width: 22%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.img {
+    width: 180px;
+    height: 180px;
+    padding-left: 0px;
+    padding-top: 3px;
+    border-radius: 50%;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row {
+    text-align: center;
+    background-color: rgb(207, 114, 1);
+}
+
+.column {
+    float: right;
+    width: 15%;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.row2::after {
+    content: "";
+    clear: both;
+    display: table;
+    align-content: center;
+}
+
+.row2 {
+    position: relative;
+    left: 0px;
+    height: 150px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.pb {
+    height: 150px;
+    margin: 20px;
+}
+
+.la {
+    position: relative;
+    top: 72px;
+    right: 910px;
+    width: 40px;
+    height: 40px
+}
+
+.ra {
+    position: relative;
+    top: -125px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.folus {
+    position: relative;
+    top: -8px;
+    right: -450px;
+    width: 250px;
+    height: 90px;
+}
+
+.Contact {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.Us {
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #333333;
+    color: white;
+    padding: 12px 153px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(207, 114, 1);
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    height: 350px;
+    width: 98%;
+    position: relative;
+    left: 0;
+}
+
+form {
+    display: block;
+    margin-top: -1cm;
+    padding-left: 200px;
+    padding-right: 700px;
+}
+
+.map {
+    position: relative;
+    top: -405px;
+    left: 637px;
+}
+
+.address {
+    position: relative;
+    top: -415px;
+    left: 660px; 
+}
+
+.conus {
+    background-color: #f2f2f2;
+    height: 490px;
+}
+
+.bottom-nav {
+    background-color: #ec0b96;
+    overflow: hidden;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer {
+    padding: 1px;
+    background-color: #333333;
+    text-align: center;
+    color: #FFF;
+    margin:0;
+    position: absolute;
+    width: 100%;
+}
+
+.botnav {
+    background-color: #333333;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+.botnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 55px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.botnav a:hover {
+    background-color: #ddd;
+    color: #333333;
+}
+
+.botnav a.active {
+    background-color: #333333;
+    color: white;
+}
+
+.bc {
+    background-color: #333333
+}
+
+.icons {
+    text-align: center;
+    background-color:#cf7201;
+    height: 190px;
+    padding-left: 105px;
+}
+
+.icons a {
+    padding: 50px;
+    color: #FFF;
+    position: relative;
+    top: 0px;
+    font-size: 80px;
+}
+
+.slides {
+    background-color: #333333;
+    margin: 0px;
+    margin-bottom: -20px
+}
+
+#box4 {
+    background-color: #333333;
+}
+
+.botlogo {
+    position: relative;
+    top: -130px;
+    right: 415px;
+}
+
+.nav {
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    position: relative;
+    top: 65px;
+    left: 625px;
+}
